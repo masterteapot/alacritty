@@ -1,0 +1,106 @@
+live_config_reload = true
+
+# import:
+# 	~/.config/alacritty/themes/themes/monokai_pro.yaml
+
+[env]
+term = 'xterm-256color'
+
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = '0x72696a'
+red = '0xfd6883'
+green = '0xadda78'
+yellow = '0xf9cc6c'
+blue = '0xf38d70'
+magenta = '0xa8a9eb'
+cyan = '0x85dacc'
+white = '0xfff1f3'
+
+[colors.normal]
+black = '0x2c2525'
+red = '0xfd6883'
+green = '0xadda78'
+yellow = '0xf9cc6c'
+blue = '0xf38d70'
+magenta = '0xa8a9eb'
+cyan = '0x85dacc'
+white = '0xfff1f3'
+
+[colors.hints.end]
+background = "#1d1f21"
+foreground = "#e9ff5e"
+
+[colors.hints.start]
+background = "#e9ff5e"
+foreground = "#1d1f21"
+
+[colors.line_indicator]
+background = "None"
+foreground = "None"
+
+[colors.primary]
+background = "0x2D2A2E"
+foreground = "0xfff1f3"
+
+[colors.search.focused_match]
+background = "#000000"
+foreground = "#ffffff"
+
+[colors.search.matches]
+background = "#ffffff"
+foreground = "#000000"
+
+[colors.selection]
+background = "CellForeground"
+text = "CellBackground"
+
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[debug]
+log_level = "Warn"
+persistent_logging = true
+print_events = false
+
+[font]
+size = 13.0
+
+[font.bold]
+family = "FiraCode Nerd Font"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+
+[scrolling]
+history = 50000
+multiplier = 3
+
+[window]
+decorations = "none"
+dynamic_title = true
+startup_mode = "Maximized"
+opacity = 0.75
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 10
+y = 10
