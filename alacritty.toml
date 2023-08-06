@@ -71,7 +71,7 @@ persistent_logging = true
 print_events = false
 
 [font]
-size = 13.0
+size = 24.0
 
 [font.bold]
 family = "FiraCode Nerd Font"
